@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/nyc/bin/nyc.js ./node_modules/mocha/bin/mocha --reporter spec test/**/*.js",
-    "coverage": "./node_modules/nyc/bin/nyc.js report --reporter=text-lcov > coverage.lcov && codecov"
+    "coverage": "./node_modules/nyc/bin/nyc.js report --reporter=text-lcov > coverage.lcov && codecov -t d6dbfb91-de79-408d-88af-b364654f9752"
   },
   "author": "",
   "license": "ISC",
